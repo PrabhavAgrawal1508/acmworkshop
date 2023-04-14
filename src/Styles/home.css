@@ -38,7 +38,7 @@
     background-color: #FF247D;
     height: 40vh;
     position: absolute;
-    margin-top: 92vh;
+    margin-top: 43.5vw;
 }
 
 .home_image {
@@ -47,3 +47,24 @@
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
+
+@media (min-width : 200px) and (max-width : 1000px) {
+    .home_button {
+        width: 200px;
+        font-size: 15px;
+    }
+    .home_heading{
+        font-size: 50px;
+        line-height: 50px;
+
+    }
+    .home_background{
+        height: 25vw;
+        margin-top: 92vw;
+
+    }
+    .home_image{
+
+        width:80%;
+
+    }}
